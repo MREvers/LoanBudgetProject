@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C1DCA0C-54A3-4367-98F8-A4C0B1D641F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BudgetProjectionProject</RootNamespace>
+    <AssemblyName>BPPForms</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BudgetProjectionProgram.cs" />
+    <Compile Include="Budgets\Budget.cs" />
+    <Compile Include="Budgets\Fund.cs" />
+    <Compile Include="Budgets\FundedPlan.cs" />
+    <Compile Include="Budgets\IPlanObserver.cs" />
+    <Compile Include="Budgets\Plan.cs" />
+    <Compile Include="Budgets\SelectiveLoanAgreement.cs" />
+    <Compile Include="DateStrategies\DateStrategy.cs" />
+    <Compile Include="DateStrategies\IDateObserver.cs" />
+    <Compile Include="DateStrategies\IDateStrategy.cs" />
+    <Compile Include="DateStrategies\XDayOfMonth.cs" />
+    <Compile Include="DateStrategies\XDayOfWeek.cs" />
+    <Compile Include="DateStrategies\XDays.cs" />
+    <Compile Include="Forms\Fund\frmAdvBudget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Fund\frmAdvBudget.Designer.cs">
+      <DependentUpon>frmAdvBudget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Fund\frmFunds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Fund\frmFunds.Designer.cs">
+      <DependentUpon>frmFunds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Fund\frmNewFund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Fund\frmNewFund.Designer.cs">
+      <DependentUpon>frmNewFund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loans\frmLoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loans\frmLoans.Designer.cs">
+      <DependentUpon>frmLoans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Plans\frmNewDelta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Plans\frmNewDelta.Designer.cs">
+      <DependentUpon>frmNewDelta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loans\frmNewLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loans\frmNewLoan.Designer.cs">
+      <DependentUpon>frmNewLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Strategies\frmNewStrategy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Strategies\frmNewStrategy.Designer.cs">
+      <DependentUpon>frmNewStrategy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Plans\frmPlans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Plans\frmPlans.Designer.cs">
+      <DependentUpon>frmPlans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Strategies\frmStrategies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Strategies\frmStrategies.Designer.cs">
+      <DependentUpon>frmStrategies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IO\IXmlSaveable.cs" />
+    <Compile Include="IO\XmlFormatter.cs" />
+    <Compile Include="Observables\IObserving.cs" />
+    <Compile Include="Loans\Loan.cs" />
+    <Compile Include="Observables\Observed.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Projection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Fund\frmAdvBudget.resx">
+      <DependentUpon>frmAdvBudget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Fund\frmFunds.resx">
+      <DependentUpon>frmFunds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Fund\frmNewFund.resx">
+      <DependentUpon>frmNewFund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loans\frmLoans.resx">
+      <DependentUpon>frmLoans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Plans\frmNewDelta.resx">
+      <DependentUpon>frmNewDelta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loans\frmNewLoan.resx">
+      <DependentUpon>frmNewLoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Strategies\frmNewStrategy.resx">
+      <DependentUpon>frmNewStrategy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Plans\frmPlans.resx">
+      <DependentUpon>frmPlans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Strategies\frmStrategies.resx">
+      <DependentUpon>frmStrategies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

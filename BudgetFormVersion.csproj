@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{9B5F9AF2-B3FC-4F17-9563-5DACAFFE5D0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>BudgetProjectionProject</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\BudgetProjectionProgram.cs" />
+    <Compile Include="Core\Budgets\Budget.cs" />
+    <Compile Include="Core\Budgets\Fund.cs" />
+    <Compile Include="Core\Budgets\FundedPlan.cs" />
+    <Compile Include="Core\Budgets\IPlanObserver.cs" />
+    <Compile Include="Core\Budgets\Plan.cs" />
+    <Compile Include="Core\Budgets\SelectiveLoanAgreement.cs" />
+    <Compile Include="Core\DateStrategies\DateStrategy.cs" />
+    <Compile Include="Core\DateStrategies\IDateObserver.cs" />
+    <Compile Include="Core\DateStrategies\IDateStrategy.cs" />
+    <Compile Include="Core\DateStrategies\XDayOfMonth.cs" />
+    <Compile Include="Core\DateStrategies\XDays.cs" />
+    <Compile Include="Core\IInitialConditions.cs" />
+    <Compile Include="Core\InfoTracker.cs" />
+    <Compile Include="Core\IO\XmlLoadFactory.cs" />
+    <Compile Include="Forms\ConfirmationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfirmationForm.Designer.cs">
+      <DependentUpon>ConfirmationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Fund\frmAdvBudget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Fund\frmAdvBudget.Designer.cs">
+      <DependentUpon>frmAdvBudget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Fund\frmFunds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Fund\frmFunds.Designer.cs">
+      <DependentUpon>frmFunds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Fund\frmNewFund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Fund\frmNewFund.Designer.cs">
+      <DependentUpon>frmNewFund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loans\frmLoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loans\frmLoans.Designer.cs">
+      <DependentUpon>frmLoans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loans\frmNewLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loans\frmNewLoan.Designer.cs">
+      <DependentUpon>frmNewLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Plans\frmNewDelta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Plans\frmNewDelta.Designer.cs">
+      <DependentUpon>frmNewDelta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Plans\frmPlans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Plans\frmPlans.Designer.cs">
+      <DependentUpon>frmPlans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SLAs\frmNewSLA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SLAs\frmNewSLA.Designer.cs">
+      <DependentUpon>frmNewSLA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SLAs\frmSLAs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SLAs\frmSLAs.Designer.cs">
+      <DependentUpon>frmSLAs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Strategies\frmNewStrategy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Strategies\frmNewStrategy.Designer.cs">
+      <DependentUpon>frmNewStrategy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Strategies\frmStrategies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Strategies\frmStrategies.Designer.cs">
+      <DependentUpon>frmStrategies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\IO\IXmlSaveable.cs" />
+    <Compile Include="Core\IO\XmlFormatter.cs" />
+    <Compile Include="Core\Loans\Loan.cs" />
+    <Compile Include="Core\Observables\IObserving.cs" />
+    <Compile Include="Core\Observables\Observed.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Core\Projection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ConfirmationForm.resx">
+      <DependentUpon>ConfirmationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Fund\frmAdvBudget.resx">
+      <DependentUpon>frmAdvBudget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Fund\frmFunds.resx">
+      <DependentUpon>frmFunds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Fund\frmNewFund.resx">
+      <DependentUpon>frmNewFund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loans\frmLoans.resx">
+      <DependentUpon>frmLoans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loans\frmNewLoan.resx">
+      <DependentUpon>frmNewLoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Plans\frmNewDelta.resx">
+      <DependentUpon>frmNewDelta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Plans\frmPlans.resx">
+      <DependentUpon>frmPlans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SLAs\frmNewSLA.resx">
+      <DependentUpon>frmNewSLA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SLAs\frmSLAs.resx">
+      <DependentUpon>frmSLAs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Strategies\frmNewStrategy.resx">
+      <DependentUpon>frmNewStrategy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Strategies\frmStrategies.resx">
+      <DependentUpon>frmStrategies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,2204 @@
+January(0):
+Savings: 6500 ---> 7763 (+1263)
+
+Funds:
+|--Loan Fund: 1150 ---> 0 (-1150)
+
+Loans:
+|--Noyce
+   |--Balance: 27898.66 ---> 27010.74
+   |--Interest Gained: 112.08
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 4159.88 ---> 4133.7
+   |--Interest Gained: 23.82
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 7207.13 ---> 7180.64
+   |--Interest Gained: 23.51
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 2218.68 ---> 2174.96
+   |--Interest Gained: 6.28
+   |--Amount Paid: 50
+
+Debug:
+|-Day 1: 
+|-Rent: 
+|-Main(6500:5355) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (1150:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (27898.66) from Loan Fund
+|- Interest gained since last reset on Noyce (27898.66) is 0
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(5355:4355) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 26898.66
+|-Boeing: 
+|-Main(4355:5541) <--(1186)-- 
+
+|-Day 2: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(5541:5491) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(5491:5441) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(5441:5391) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 4111.43
+|-Payment of 50 made to UnSubLarge. Principal remaining 7158.654
+|-Payment of 50 made to Subsidized. Principal remaining 2169.094
+
+|-Day 15: 
+|-Boeing: 
+|-Main(5391:6577) <--(1186)-- 
+
+|-Day 29: 
+|-Boeing: 
+|-Main(6577:7763) <--(1186)-- 
+
+=================================================February(1):
+Savings: 7763 ---> 7840 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 27010.74 ---> 26119.12
+   |--Interest Gained: 108.38
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 4133.7 ---> 4105.08
+   |--Interest Gained: 21.37
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 7180.64 ---> 7151.8
+   |--Interest Gained: 21.16
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 2174.96 ---> 2130.52
+   |--Interest Gained: 5.56
+   |--Amount Paid: 50
+
+Debug:
+|-Day 32: 
+|-Rent: 
+|-Main(7763:6618) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (27010.74) from Loan Fund
+|- Interest gained since last reset on Noyce (27010.74) is 112.0778
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(6618:5618) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 26010.74
+
+|-Day 33: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(5618:5568) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(5568:5518) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(5518:5468) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 4085.241
+|-Payment of 50 made to UnSubLarge. Principal remaining 7132.16
+|-Payment of 50 made to Subsidized. Principal remaining 2125.366
+
+|-Day 43: 
+|-Boeing: 
+|-Main(5468:6654) <--(1186)-- 
+
+|-Day 57: 
+|-Boeing: 
+|-Main(6654:7840) <--(1186)-- 
+
+=================================================March(2):
+Savings: 7840 ---> 7917 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 26119.12 ---> 25223.78
+   |--Interest Gained: 104.66
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 4105.08 ---> 4078.58
+   |--Interest Gained: 23.5
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 7151.8 ---> 7125.13
+   |--Interest Gained: 23.33
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 2130.52 ---> 2086.55
+   |--Interest Gained: 6.03
+   |--Amount Paid: 50
+
+Debug:
+|-Day 60: 
+|-Rent: 
+|-Main(7840:6695) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (26119.12) from Loan Fund
+|- Interest gained since last reset on Noyce (26119.12) is 108.3781
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(6695:5695) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 25119.12
+
+|-Day 61: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(5695:5645) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(5645:5595) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(5595:5545) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 4056.605
+|-Payment of 50 made to UnSubLarge. Principal remaining 7103.31
+|-Payment of 50 made to Subsidized. Principal remaining 2080.917
+
+|-Day 71: 
+|-Boeing: 
+|-Main(5545:6731) <--(1186)-- 
+
+|-Day 85: 
+|-Boeing: 
+|-Main(6731:7917) <--(1186)-- 
+
+=================================================April(3):
+Savings: 7917 ---> 7994 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 25223.78 ---> 24324.71
+   |--Interest Gained: 100.93
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 4078.58 ---> 4051.17
+   |--Interest Gained: 22.6
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 7125.13 ---> 7097.62
+   |--Interest Gained: 22.49
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 2086.55 ---> 2042.25
+   |--Interest Gained: 5.71
+   |--Amount Paid: 50
+
+Debug:
+|-Day 91: 
+|-Rent: 
+|-Main(7917:6772) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (25223.78) from Loan Fund
+|- Interest gained since last reset on Noyce (25223.78) is 104.663
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(6772:5772) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 24223.78
+
+|-Day 92: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(5772:5722) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(5722:5672) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(5672:5622) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 4030.099
+|-Payment of 50 made to UnSubLarge. Principal remaining 7076.634
+|-Payment of 50 made to Subsidized. Principal remaining 2036.934
+
+|-Day 99: 
+|-Boeing: 
+|-Main(5622:6808) <--(1186)-- 
+
+|-Day 113: 
+|-Boeing: 
+|-Main(6808:7994) <--(1186)-- 
+
+=================================================May(4):
+Savings: 7994 ---> 8071 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 24324.71 ---> 23421.9
+   |--Interest Gained: 97.19
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 4051.17 ---> 4024.37
+   |--Interest Gained: 23.19
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 7097.62 ---> 7070.77
+   |--Interest Gained: 23.15
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 2042.25 ---> 1998.02
+   |--Interest Gained: 5.77
+   |--Amount Paid: 50
+
+Debug:
+|-Day 121: 
+|-Rent: 
+|-Main(7994:6849) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (24324.71) from Loan Fund
+|- Interest gained since last reset on Noyce (24324.71) is 100.9324
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(6849:5849) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 23324.71
+
+|-Day 122: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(5849:5799) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(5799:5749) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(5749:5699) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 4002.684
+|-Payment of 50 made to UnSubLarge. Principal remaining 7049.119
+|-Payment of 50 made to Subsidized. Principal remaining 1992.634
+
+|-Day 127: 
+|-Boeing: 
+|-Main(5699:6885) <--(1186)-- 
+
+|-Day 141: 
+|-Boeing: 
+|-Main(6885:8071) <--(1186)-- 
+
+=================================================June(5):
+Savings: 8071 ---> 8148 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 23421.9 ---> 22515.32
+   |--Interest Gained: 93.42
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 4024.37 ---> 3996.66
+   |--Interest Gained: 22.29
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 7070.77 ---> 7043.09
+   |--Interest Gained: 22.32
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1998.02 ---> 1953.48
+   |--Interest Gained: 5.46
+   |--Amount Paid: 50
+
+Debug:
+|-Day 152: 
+|-Rent: 
+|-Main(8071:6926) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (23421.9) from Loan Fund
+|- Interest gained since last reset on Noyce (23421.9) is 97.18629
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(6926:5926) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 22421.9
+
+|-Day 153: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(5926:5876) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(5876:5826) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(5826:5776) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3975.866
+|-Payment of 50 made to UnSubLarge. Principal remaining 7022.265
+|-Payment of 50 made to Subsidized. Principal remaining 1948.396
+
+|-Day 155: 
+|-Boeing: 
+|-Main(5776:6962) <--(1186)-- 
+
+|-Day 169: 
+|-Boeing: 
+|-Main(6962:8148) <--(1186)-- 
+
+=================================================July(6):
+Savings: 8148 ---> 9411 (+1263)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 22515.32 ---> 21604.97
+   |--Interest Gained: 89.65
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3996.66 ---> 3969.53
+   |--Interest Gained: 22.88
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 7043.09 ---> 7016.06
+   |--Interest Gained: 22.97
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1953.48 ---> 1909
+   |--Interest Gained: 5.51
+   |--Amount Paid: 50
+
+Debug:
+|-Day 182: 
+|-Rent: 
+|-Main(8148:7003) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (22515.32) from Loan Fund
+|- Interest gained since last reset on Noyce (22515.32) is 93.42457
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(7003:6003) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 21515.32
+
+|-Day 183: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(6003:5953) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(5953:5903) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(5903:5853) --(-50)--> 
+|-Boeing: 
+|-Main(5853:7039) <--(1186)-- 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3948.147
+|-Payment of 50 made to UnSubLarge. Principal remaining 6994.578
+|-Payment of 50 made to Subsidized. Principal remaining 1903.849
+
+|-Day 197: 
+|-Boeing: 
+|-Main(7039:8225) <--(1186)-- 
+
+|-Day 211: 
+|-Boeing: 
+|-Main(8225:9411) <--(1186)-- 
+
+=================================================August(7):
+Savings: 9411 ---> 9488 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 21604.97 ---> 20690.82
+   |--Interest Gained: 85.85
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3969.53 ---> 3942.25
+   |--Interest Gained: 22.72
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 7016.06 ---> 6988.95
+   |--Interest Gained: 22.88
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1909 ---> 1864.38
+   |--Interest Gained: 5.39
+   |--Amount Paid: 50
+
+Debug:
+|-Day 213: 
+|-Rent: 
+|-Main(9411:8266) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (21604.97) from Loan Fund
+|- Interest gained since last reset on Noyce (21604.97) is 89.64717
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(8266:7266) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 20604.97
+
+|-Day 214: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(7266:7216) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(7216:7166) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(7166:7116) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3921.013
+|-Payment of 50 made to UnSubLarge. Principal remaining 6967.545
+|-Payment of 50 made to Subsidized. Principal remaining 1859.354
+
+|-Day 225: 
+|-Boeing: 
+|-Main(7116:8302) <--(1186)-- 
+
+|-Day 239: 
+|-Boeing: 
+|-Main(8302:9488) <--(1186)-- 
+
+=================================================September(8):
+Savings: 9488 ---> 9565 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 20690.82 ---> 19772.87
+   |--Interest Gained: 82.05
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3942.25 ---> 3914.08
+   |--Interest Gained: 21.83
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6988.95 ---> 6961
+   |--Interest Gained: 22.06
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1864.38 ---> 1819.47
+   |--Interest Gained: 5.09
+   |--Amount Paid: 50
+
+Debug:
+|-Day 244: 
+|-Rent: 
+|-Main(9488:8343) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (20690.82) from Loan Fund
+|- Interest gained since last reset on Noyce (20690.82) is 85.85403
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(8343:7343) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 19690.82
+
+|-Day 245: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(7343:7293) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(7293:7243) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(7243:7193) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3893.722
+|-Payment of 50 made to UnSubLarge. Principal remaining 6940.424
+|-Payment of 50 made to Subsidized. Principal remaining 1814.731
+
+|-Day 253: 
+|-Boeing: 
+|-Main(7193:8379) <--(1186)-- 
+
+|-Day 267: 
+|-Boeing: 
+|-Main(8379:9565) <--(1186)-- 
+
+=================================================October(9):
+Savings: 9565 ---> 9642 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 19772.87 ---> 18851.09
+   |--Interest Gained: 78.22
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3914.08 ---> 3886.48
+   |--Interest Gained: 22.4
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6961 ---> 6933.71
+   |--Interest Gained: 22.7
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1819.47 ---> 1774.6
+   |--Interest Gained: 5.13
+   |--Amount Paid: 50
+
+Debug:
+|-Day 274: 
+|-Rent: 
+|-Main(9565:8420) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (19772.87) from Loan Fund
+|- Interest gained since last reset on Noyce (19772.87) is 82.04508
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(8420:7420) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 18772.87
+
+|-Day 275: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(7420:7370) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(7370:7320) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(7320:7270) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3865.542
+|-Payment of 50 made to UnSubLarge. Principal remaining 6912.477
+|-Payment of 50 made to Subsidized. Principal remaining 1769.809
+
+|-Day 281: 
+|-Boeing: 
+|-Main(7270:8456) <--(1186)-- 
+
+|-Day 295: 
+|-Boeing: 
+|-Main(8456:9642) <--(1186)-- 
+
+=================================================November(10):
+Savings: 9642 ---> 9719 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 18851.09 ---> 17925.46
+   |--Interest Gained: 74.38
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3886.48 ---> 3858
+   |--Interest Gained: 21.52
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6933.71 ---> 6905.59
+   |--Interest Gained: 21.88
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1774.6 ---> 1729.43
+   |--Interest Gained: 4.84
+   |--Amount Paid: 50
+
+Debug:
+|-Day 305: 
+|-Rent: 
+|-Main(9642:8497) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (18851.09) from Loan Fund
+|- Interest gained since last reset on Noyce (18851.09) is 78.22028
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(8497:7497) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 17851.09
+
+|-Day 306: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(7497:7447) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(7447:7397) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(7397:7347) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3837.93
+|-Payment of 50 made to UnSubLarge. Principal remaining 6885.174
+|-Payment of 50 made to Subsidized. Principal remaining 1724.927
+
+|-Day 309: 
+|-Boeing: 
+|-Main(7347:8533) <--(1186)-- 
+
+|-Day 323: 
+|-Boeing: 
+|-Main(8533:9719) <--(1186)-- 
+
+=================================================December(11):
+Savings: 9719 ---> 10982 (+1263)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 17925.46 ---> 16995.99
+   |--Interest Gained: 70.52
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3858 ---> 3830.07
+   |--Interest Gained: 22.07
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6905.59 ---> 6878.11
+   |--Interest Gained: 22.52
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1729.43 ---> 1684.3
+   |--Interest Gained: 4.87
+   |--Amount Paid: 50
+
+Debug:
+|-Day 335: 
+|-Rent: 
+|-Main(9719:8574) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (17925.46) from Loan Fund
+|- Interest gained since last reset on Noyce (17925.46) is 74.37952
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(8574:7574) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 16925.46
+
+|-Day 336: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(7574:7524) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(7524:7474) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(7474:7424) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3809.438
+|-Payment of 50 made to UnSubLarge. Principal remaining 6857.052
+|-Payment of 50 made to Subsidized. Principal remaining 1679.754
+
+|-Day 337: 
+|-Boeing: 
+|-Main(7424:8610) <--(1186)-- 
+
+|-Day 351: 
+|-Boeing: 
+|-Main(8610:9796) <--(1186)-- 
+
+|-Day 365: 
+|-Boeing: 
+|-Main(9796:10982) <--(1186)-- 
+
+=================================================January(12):
+Savings: 10982 ---> 11059 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 16995.99 ---> 16062.64
+   |--Interest Gained: 66.65
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3830.07 ---> 3801.98
+   |--Interest Gained: 21.91
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6878.11 ---> 6850.54
+   |--Interest Gained: 22.43
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1684.3 ---> 1639.03
+   |--Interest Gained: 4.74
+   |--Amount Paid: 50
+
+Debug:
+|-Day 366: 
+|-Rent: 
+|-Main(10982:9837) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (16995.99) from Loan Fund
+|- Interest gained since last reset on Noyce (16995.99) is 70.52277
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(9837:8837) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 15995.99
+
+|-Day 367: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(8837:8787) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(8787:8737) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(8737:8687) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3781.501
+|-Payment of 50 made to UnSubLarge. Principal remaining 6829.567
+|-Payment of 50 made to Subsidized. Principal remaining 1634.611
+
+|-Day 379: 
+|-Boeing: 
+|-Main(8687:9873) <--(1186)-- 
+
+|-Day 393: 
+|-Boeing: 
+|-Main(9873:11059) <--(1186)-- 
+
+=================================================February(13):
+Savings: 11059 ---> 11136 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 16062.64 ---> 15125.4
+   |--Interest Gained: 62.76
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3801.98 ---> 3771.62
+   |--Interest Gained: 19.64
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6850.54 ---> 6820.72
+   |--Interest Gained: 20.18
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1639.03 ---> 1593.19
+   |--Interest Gained: 4.16
+   |--Amount Paid: 50
+
+Debug:
+|-Day 397: 
+|-Rent: 
+|-Main(11059:9914) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (16062.64) from Loan Fund
+|- Interest gained since last reset on Noyce (16062.64) is 66.64996
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(9914:8914) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 15062.64
+
+|-Day 398: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(8914:8864) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(8864:8814) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(8814:8764) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3753.402
+|-Payment of 50 made to UnSubLarge. Principal remaining 6801.993
+|-Payment of 50 made to Subsidized. Principal remaining 1589.338
+
+|-Day 407: 
+|-Boeing: 
+|-Main(8764:9950) <--(1186)-- 
+
+|-Day 421: 
+|-Boeing: 
+|-Main(9950:11136) <--(1186)-- 
+
+=================================================March(14):
+Savings: 11136 ---> 11213 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 15125.4 ---> 14184.25
+   |--Interest Gained: 58.86
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3771.62 ---> 3743.2
+   |--Interest Gained: 21.57
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6820.72 ---> 6792.96
+   |--Interest Gained: 22.24
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1593.19 ---> 1547.66
+   |--Interest Gained: 4.47
+   |--Amount Paid: 50
+
+Debug:
+|-Day 425: 
+|-Rent: 
+|-Main(11136:9991) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (15125.4) from Loan Fund
+|- Interest gained since last reset on Noyce (15125.4) is 62.76099
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(9991:8991) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 14125.4
+
+|-Day 426: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(8991:8941) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(8941:8891) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(8891:8841) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3723.03
+|-Payment of 50 made to UnSubLarge. Principal remaining 6772.163
+|-Payment of 50 made to Subsidized. Principal remaining 1543.489
+
+|-Day 435: 
+|-Boeing: 
+|-Main(8841:10027) <--(1186)-- 
+
+|-Day 449: 
+|-Boeing: 
+|-Main(10027:11213) <--(1186)-- 
+
+=================================================April(15):
+Savings: 11213 ---> 11290 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 14184.25 ---> 13239.19
+   |--Interest Gained: 54.93
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3743.2 ---> 3713.91
+   |--Interest Gained: 20.72
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6792.96 ---> 6764.4
+   |--Interest Gained: 21.44
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1547.66 ---> 1501.86
+   |--Interest Gained: 4.2
+   |--Amount Paid: 50
+
+Debug:
+|-Day 456: 
+|-Rent: 
+|-Main(11213:10068) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (14184.25) from Loan Fund
+|- Interest gained since last reset on Noyce (14184.25) is 58.85583
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(10068:9068) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 13184.25
+
+|-Day 457: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(9068:9018) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(9018:8968) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(8968:8918) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3694.592
+|-Payment of 50 made to UnSubLarge. Principal remaining 6744.399
+|-Payment of 50 made to Subsidized. Principal remaining 1497.952
+
+|-Day 463: 
+|-Boeing: 
+|-Main(8918:10104) <--(1186)-- 
+
+|-Day 477: 
+|-Boeing: 
+|-Main(10104:11290) <--(1186)-- 
+
+=================================================May(16):
+Savings: 11290 ---> 11367 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 13239.19 ---> 12290.19
+   |--Interest Gained: 51
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3713.91 ---> 3685.15
+   |--Interest Gained: 21.24
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6764.4 ---> 6736.46
+   |--Interest Gained: 22.06
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1501.86 ---> 1456.07
+   |--Interest Gained: 4.21
+   |--Amount Paid: 50
+
+Debug:
+|-Day 486: 
+|-Rent: 
+|-Main(11290:10145) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (13239.19) from Loan Fund
+|- Interest gained since last reset on Noyce (13239.19) is 54.93439
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(10145:9145) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 12239.19
+
+|-Day 487: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(9145:9095) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(9095:9045) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(9045:8995) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3665.297
+|-Payment of 50 made to UnSubLarge. Principal remaining 6715.83
+|-Payment of 50 made to Subsidized. Principal remaining 1452.143
+
+|-Day 491: 
+|-Boeing: 
+|-Main(8995:10181) <--(1186)-- 
+
+|-Day 505: 
+|-Boeing: 
+|-Main(10181:11367) <--(1186)-- 
+
+=================================================June(17):
+Savings: 11367 ---> 11444 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 12290.19 ---> 11337.23
+   |--Interest Gained: 47.04
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3685.15 ---> 3655.54
+   |--Interest Gained: 20.39
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6736.46 ---> 6707.71
+   |--Interest Gained: 21.26
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1456.07 ---> 1410.02
+   |--Interest Gained: 3.94
+   |--Amount Paid: 50
+
+Debug:
+|-Day 517: 
+|-Rent: 
+|-Main(11367:10222) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (12290.19) from Loan Fund
+|- Interest gained since last reset on Noyce (12290.19) is 50.99662
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(10222:9222) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 11290.19
+
+|-Day 518: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(9222:9172) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(9172:9122) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(9122:9072) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3636.525
+|-Payment of 50 made to UnSubLarge. Principal remaining 6687.882
+|-Payment of 50 made to Subsidized. Principal remaining 1406.343
+
+|-Day 519: 
+|-Boeing: 
+|-Main(9072:10258) <--(1186)-- 
+
+|-Day 533: 
+|-Boeing: 
+|-Main(10258:11444) <--(1186)-- 
+
+=================================================July(18):
+Savings: 11444 ---> 12707 (+1263)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 11337.23 ---> 10380.3
+   |--Interest Gained: 43.07
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3655.54 ---> 3626.44
+   |--Interest Gained: 20.9
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6707.71 ---> 6679.58
+   |--Interest Gained: 21.87
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1410.02 ---> 1363.96
+   |--Interest Gained: 3.94
+   |--Amount Paid: 50
+
+Debug:
+|-Day 547: 
+|-Rent: 
+|-Main(11444:10299) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (11337.23) from Loan Fund
+|- Interest gained since last reset on Noyce (11337.23) is 47.04245
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(10299:9299) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 10337.23
+|-Boeing: 
+|-Main(9299:10485) <--(1186)-- 
+
+|-Day 548: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(10485:10435) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(10435:10385) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(10385:10335) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3606.905
+|-Payment of 50 made to UnSubLarge. Principal remaining 6659.132
+|-Payment of 50 made to Subsidized. Principal remaining 1360.278
+
+|-Day 561: 
+|-Boeing: 
+|-Main(10335:11521) <--(1186)-- 
+
+|-Day 575: 
+|-Boeing: 
+|-Main(11521:12707) <--(1186)-- 
+
+=================================================August(19):
+Savings: 12707 ---> 12784 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 10380.3 ---> 9419.39
+   |--Interest Gained: 39.08
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3626.44 ---> 3597.17
+   |--Interest Gained: 20.73
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6679.58 ---> 6651.36
+   |--Interest Gained: 21.78
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1363.96 ---> 1317.77
+   |--Interest Gained: 3.81
+   |--Amount Paid: 50
+
+Debug:
+|-Day 578: 
+|-Rent: 
+|-Main(12707:11562) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (10380.3) from Loan Fund
+|- Interest gained since last reset on Noyce (10380.3) is 43.07178
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(11562:10562) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 9380.301
+
+|-Day 579: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(10562:10512) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(10512:10462) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(10462:10412) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3577.794
+|-Payment of 50 made to UnSubLarge. Principal remaining 6630.998
+|-Payment of 50 made to Subsidized. Principal remaining 1314.211
+
+|-Day 589: 
+|-Boeing: 
+|-Main(10412:11598) <--(1186)-- 
+
+|-Day 603: 
+|-Boeing: 
+|-Main(11598:12784) <--(1186)-- 
+
+=================================================September(20):
+Savings: 12784 ---> 12861 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 9419.39 ---> 8454.47
+   |--Interest Gained: 35.08
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3597.17 ---> 3567.07
+   |--Interest Gained: 19.9
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6651.36 ---> 6622.35
+   |--Interest Gained: 20.99
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1317.77 ---> 1271.32
+   |--Interest Gained: 3.56
+   |--Amount Paid: 50
+
+Debug:
+|-Day 609: 
+|-Rent: 
+|-Main(12784:11639) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (9419.386) from Loan Fund
+|- Interest gained since last reset on Noyce (9419.386) is 39.08459
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(11639:10639) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 8419.386
+
+|-Day 610: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(10639:10589) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(10589:10539) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(10539:10489) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3548.515
+|-Payment of 50 made to UnSubLarge. Principal remaining 6602.771
+|-Payment of 50 made to Subsidized. Principal remaining 1268.012
+
+|-Day 617: 
+|-Boeing: 
+|-Main(10489:11675) <--(1186)-- 
+
+|-Day 631: 
+|-Boeing: 
+|-Main(11675:12861) <--(1186)-- 
+
+=================================================October(21):
+Savings: 12861 ---> 12938 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 8454.47 ---> 7485.53
+   |--Interest Gained: 31.06
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3567.07 ---> 3537.46
+   |--Interest Gained: 20.39
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6622.35 ---> 6593.94
+   |--Interest Gained: 21.59
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1271.32 ---> 1224.86
+   |--Interest Gained: 3.54
+   |--Amount Paid: 50
+
+Debug:
+|-Day 639: 
+|-Rent: 
+|-Main(12861:11716) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (8454.467) from Loan Fund
+|- Interest gained since last reset on Noyce (8454.467) is 35.08078
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(11716:10716) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 7454.467
+
+|-Day 640: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(10716:10666) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(10666:10616) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(10616:10566) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3518.4
+|-Payment of 50 made to UnSubLarge. Principal remaining 6573.751
+|-Payment of 50 made to Subsidized. Principal remaining 1221.56
+
+|-Day 645: 
+|-Boeing: 
+|-Main(10566:11752) <--(1186)-- 
+
+|-Day 659: 
+|-Boeing: 
+|-Main(11752:12938) <--(1186)-- 
+
+=================================================November(22):
+Savings: 12938 ---> 13015 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 7485.53 ---> 6512.55
+   |--Interest Gained: 27.02
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3537.46 ---> 3507.02
+   |--Interest Gained: 19.56
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6593.94 ---> 6564.75
+   |--Interest Gained: 20.8
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1224.86 ---> 1178.16
+   |--Interest Gained: 3.3
+   |--Amount Paid: 50
+
+Debug:
+|-Day 670: 
+|-Rent: 
+|-Main(12938:11793) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (7485.527) from Loan Fund
+|- Interest gained since last reset on Noyce (7485.527) is 31.06028
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(11793:10793) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 6485.527
+
+|-Day 671: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(10793:10743) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(10743:10693) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(10693:10643) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3488.776
+|-Payment of 50 made to UnSubLarge. Principal remaining 6545.337
+|-Payment of 50 made to Subsidized. Principal remaining 1175.093
+
+|-Day 673: 
+|-Boeing: 
+|-Main(10643:11829) <--(1186)-- 
+
+|-Day 687: 
+|-Boeing: 
+|-Main(11829:13015) <--(1186)-- 
+
+=================================================December(23):
+Savings: 13015 ---> 14278 (+1263)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 6512.55 ---> 5535.52
+   |--Interest Gained: 22.97
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3507.02 ---> 3477.06
+   |--Interest Gained: 20.04
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6564.75 ---> 6536.15
+   |--Interest Gained: 21.4
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1178.16 ---> 1131.43
+   |--Interest Gained: 3.27
+   |--Amount Paid: 50
+
+Debug:
+|-Day 700: 
+|-Rent: 
+|-Main(13015:11870) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (6512.55) from Loan Fund
+|- Interest gained since last reset on Noyce (6512.55) is 27.02303
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(11870:10870) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 5512.55
+
+|-Day 701: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(10870:10820) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(10820:10770) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(10770:10720) --(-50)--> 
+|-Boeing: 
+|-Main(10720:11906) <--(1186)-- 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3458.328
+|-Payment of 50 made to UnSubLarge. Principal remaining 6516.135
+|-Payment of 50 made to Subsidized. Principal remaining 1128.381
+
+|-Day 715: 
+|-Boeing: 
+|-Main(11906:13092) <--(1186)-- 
+
+|-Day 729: 
+|-Boeing: 
+|-Main(13092:14278) <--(1186)-- 
+
+=================================================January(24):
+Savings: 14278 ---> 14355 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 5535.52 ---> 4554.42
+   |--Interest Gained: 18.9
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3477.06 ---> 3446.93
+   |--Interest Gained: 19.87
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6536.15 ---> 6507.46
+   |--Interest Gained: 21.31
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1131.43 ---> 1084.57
+   |--Interest Gained: 3.14
+   |--Amount Paid: 50
+
+Debug:
+|-Day 731: 
+|-Rent: 
+|-Main(14278:13133) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (5535.519) from Loan Fund
+|- Interest gained since last reset on Noyce (5535.519) is 22.96896
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(13133:12133) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 4535.519
+
+|-Day 732: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(12133:12083) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(12083:12033) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(12033:11983) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3428.356
+|-Payment of 50 made to UnSubLarge. Principal remaining 6487.531
+|-Payment of 50 made to Subsidized. Principal remaining 1081.644
+
+|-Day 743: 
+|-Boeing: 
+|-Main(11983:13169) <--(1186)-- 
+
+|-Day 757: 
+|-Boeing: 
+|-Main(13169:14355) <--(1186)-- 
+
+=================================================February(25):
+Savings: 14355 ---> 14432 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 4554.42 ---> 4123.39
+   |--Interest Gained: 18.98
+   |--Amount Paid: 450
+|--UnSubSmall
+   |--Balance: 3446.93 ---> 3414.71
+   |--Interest Gained: 17.78
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 6507.46 ---> 5924.97
+   |--Interest Gained: 17.52
+   |--Amount Paid: 600
+|--Subsidized
+   |--Balance: 1084.57 ---> 1037.28
+   |--Interest Gained: 2.71
+   |--Amount Paid: 50
+
+Debug:
+|-Day 762: 
+|-Rent: 
+|-Main(14355:13210) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 600 paid on UnSubLarge (6507.457) from Loan Fund
+|- Interest gained since last reset on UnSubLarge (6507.457) is 21.30828
+|-Loan Fund(1150:550) --(-600)--> 
+|-Main(13210:12610) --(-600)--> 
+|-Payment of 600 made to UnSubLarge. Principal remaining 5907.457
+
+|-Day 763: 
+|-Loan Fund(550:100) --(-450)--> 
+|-Main(12610:12160) --(-450)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(12160:12110) --(-50)--> 
+|-No Minimum Payment Required to UnSubLarge
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(12110:12060) --(-50)--> 
+|-Payment of 450 made to Noyce. Principal remaining 4123.393
+|-Payment of 50 made to UnSubSmall. Principal remaining 3398.211
+|-Payment of 50 made to Subsidized. Principal remaining 1034.771
+
+|-Day 771: 
+|-Boeing: 
+|-Main(12060:13246) <--(1186)-- 
+
+|-Day 785: 
+|-Boeing: 
+|-Main(13246:14432) <--(1186)-- 
+
+=================================================March(26):
+Savings: 14432 ---> 14509 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 4123.39 ---> 3136.41
+   |--Interest Gained: 13.01
+   |--Amount Paid: 1000
+|--UnSubSmall
+   |--Balance: 3414.71 ---> 3384.22
+   |--Interest Gained: 19.51
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 5924.97 ---> 5894.28
+   |--Interest Gained: 19.3
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 1037.28 ---> 990.14
+   |--Interest Gained: 2.86
+   |--Amount Paid: 50
+
+Debug:
+|-Day 790: 
+|-Rent: 
+|-Main(14432:13287) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1000 paid on Noyce (4123.393) from Loan Fund
+|- Interest gained since last reset on Noyce (4123.393) is 18.97674
+|-Loan Fund(1150:150) --(-1000)--> 
+|-Main(13287:12287) --(-1000)--> 
+|-Payment of 1000 made to Noyce. Principal remaining 3123.393
+
+|-Day 791: 
+|-No Minimum Payment Required to Noyce
+|-Loan Fund(150:100) --(-50)--> 
+|-Main(12287:12237) --(-50)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(12237:12187) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(12187:12137) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 3365.982
+|-Payment of 50 made to UnSubLarge. Principal remaining 5876.228
+|-Payment of 50 made to Subsidized. Principal remaining 987.4739
+
+|-Day 799: 
+|-Boeing: 
+|-Main(12137:13323) <--(1186)-- 
+
+|-Day 813: 
+|-Boeing: 
+|-Main(13323:14509) <--(1186)-- 
+
+=================================================April(27):
+Savings: 14509 ---> 14586 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 3136.41 ---> 2699.48
+   |--Interest Gained: 13.07
+   |--Amount Paid: 450
+|--UnSubSmall
+   |--Balance: 3384.22 ---> 2799.82
+   |--Interest Gained: 15.6
+   |--Amount Paid: 600
+|--UnSubLarge
+   |--Balance: 5894.28 ---> 5862.86
+   |--Interest Gained: 18.58
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 990.14 ---> 942.78
+   |--Interest Gained: 2.64
+   |--Amount Paid: 50
+
+Debug:
+|-Day 821: 
+|-Rent: 
+|-Main(14509:13364) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 600 paid on UnSubSmall (3384.216) from Loan Fund
+|- Interest gained since last reset on UnSubSmall (3384.216) is 19.50549
+|-Loan Fund(1150:550) --(-600)--> 
+|-Main(13364:12764) --(-600)--> 
+|-Payment of 600 made to UnSubSmall. Principal remaining 2784.216
+
+|-Day 822: 
+|-Loan Fund(550:100) --(-450)--> 
+|-Main(12764:12314) --(-450)--> 
+|-No Minimum Payment Required to UnSubSmall
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(12314:12264) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(12264:12214) --(-50)--> 
+|-Payment of 450 made to Noyce. Principal remaining 2699.476
+|-Payment of 50 made to UnSubLarge. Principal remaining 5845.522
+|-Payment of 50 made to Subsidized. Principal remaining 940.3293
+
+|-Day 827: 
+|-Boeing: 
+|-Main(12214:13400) <--(1186)-- 
+
+|-Day 841: 
+|-Boeing: 
+|-Main(13400:14586) <--(1186)-- 
+
+=================================================May(28):
+Savings: 14586 ---> 14663 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 2699.48 ---> 2260.72
+   |--Interest Gained: 11.25
+   |--Amount Paid: 450
+|--UnSubSmall
+   |--Balance: 2799.82 ---> 2765.76
+   |--Interest Gained: 15.94
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 5862.86 ---> 5280.14
+   |--Interest Gained: 17.28
+   |--Amount Paid: 600
+|--Subsidized
+   |--Balance: 942.78 ---> 895.38
+   |--Interest Gained: 2.59
+   |--Amount Paid: 50
+
+Debug:
+|-Day 851: 
+|-Rent: 
+|-Main(14586:13441) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 600 paid on UnSubLarge (5862.856) from Loan Fund
+|- Interest gained since last reset on UnSubLarge (5862.856) is 18.58063
+|-Loan Fund(1150:550) --(-600)--> 
+|-Main(13441:12841) --(-600)--> 
+|-Payment of 600 made to UnSubLarge. Principal remaining 5262.856
+
+|-Day 852: 
+|-Loan Fund(550:100) --(-450)--> 
+|-Main(12841:12391) --(-450)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(12391:12341) --(-50)--> 
+|-No Minimum Payment Required to UnSubLarge
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(12341:12291) --(-50)--> 
+|-Payment of 450 made to Noyce. Principal remaining 2260.723
+|-Payment of 50 made to UnSubSmall. Principal remaining 2750.863
+|-Payment of 50 made to Subsidized. Principal remaining 892.9606
+
+|-Day 855: 
+|-Boeing: 
+|-Main(12291:13477) <--(1186)-- 
+
+|-Day 869: 
+|-Boeing: 
+|-Main(13477:14663) <--(1186)-- 
+
+=================================================June(29):
+Savings: 14663 ---> 15926 (+1263)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 2260.72 ---> 1820.14
+   |--Interest Gained: 9.42
+   |--Amount Paid: 450
+|--UnSubSmall
+   |--Balance: 2765.76 ---> 2731
+   |--Interest Gained: 15.24
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 5280.14 ---> 4695.01
+   |--Interest Gained: 14.87
+   |--Amount Paid: 600
+|--Subsidized
+   |--Balance: 895.38 ---> 847.75
+   |--Interest Gained: 2.37
+   |--Amount Paid: 50
+
+Debug:
+|-Day 882: 
+|-Rent: 
+|-Main(14663:13518) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 600 paid on UnSubLarge (5280.137) from Loan Fund
+|- Interest gained since last reset on UnSubLarge (5280.137) is 17.28092
+|-Loan Fund(1150:550) --(-600)--> 
+|-Main(13518:12918) --(-600)--> 
+|-Payment of 600 made to UnSubLarge. Principal remaining 4680.137
+
+|-Day 883: 
+|-Loan Fund(550:100) --(-450)--> 
+|-Main(12918:12468) --(-450)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(12468:12418) --(-50)--> 
+|-No Minimum Payment Required to UnSubLarge
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(12418:12368) --(-50)--> 
+|-Boeing: 
+|-Main(12368:13554) <--(1186)-- 
+|-Payment of 450 made to Noyce. Principal remaining 1820.143
+|-Payment of 50 made to UnSubSmall. Principal remaining 2716.795
+|-Payment of 50 made to Subsidized. Principal remaining 845.5428
+
+|-Day 897: 
+|-Boeing: 
+|-Main(13554:14740) <--(1186)-- 
+
+|-Day 911: 
+|-Boeing: 
+|-Main(14740:15926) <--(1186)-- 
+
+=================================================July(30):
+Savings: 15926 ---> 16003 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 1820.14 ---> 1377.73
+   |--Interest Gained: 7.58
+   |--Amount Paid: 450
+|--UnSubSmall
+   |--Balance: 2731 ---> 2143.34
+   |--Interest Gained: 12.34
+   |--Amount Paid: 600
+|--UnSubLarge
+   |--Balance: 4695.01 ---> 4660.27
+   |--Interest Gained: 15.26
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 847.75 ---> 800.07
+   |--Interest Gained: 2.32
+   |--Amount Paid: 50
+
+Debug:
+|-Day 912: 
+|-Rent: 
+|-Main(15926:14781) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 600 paid on UnSubSmall (2731.002) from Loan Fund
+|- Interest gained since last reset on UnSubSmall (2731.002) is 15.23832
+|-Loan Fund(1150:550) --(-600)--> 
+|-Main(14781:14181) --(-600)--> 
+|-Payment of 600 made to UnSubSmall. Principal remaining 2131.002
+
+|-Day 913: 
+|-Loan Fund(550:100) --(-450)--> 
+|-Main(14181:13731) --(-450)--> 
+|-No Minimum Payment Required to UnSubSmall
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(13731:13681) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(13681:13631) --(-50)--> 
+|-Payment of 450 made to Noyce. Principal remaining 1377.727
+|-Payment of 50 made to UnSubLarge. Principal remaining 4646.001
+|-Payment of 50 made to Subsidized. Principal remaining 797.9089
+
+|-Day 925: 
+|-Boeing: 
+|-Main(13631:14817) <--(1186)-- 
+
+|-Day 939: 
+|-Boeing: 
+|-Main(14817:16003) <--(1186)-- 
+
+=================================================August(31):
+Savings: 16003 ---> 16080 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 1377.73 ---> 933.47
+   |--Interest Gained: 5.74
+   |--Amount Paid: 450
+|--UnSubSmall
+   |--Balance: 2143.34 ---> 2105.49
+   |--Interest Gained: 12.14
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 4660.27 ---> 4073.6
+   |--Interest Gained: 13.33
+   |--Amount Paid: 600
+|--Subsidized
+   |--Balance: 800.07 ---> 752.25
+   |--Interest Gained: 2.18
+   |--Amount Paid: 50
+
+Debug:
+|-Day 943: 
+|-Rent: 
+|-Main(16003:14858) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 600 paid on UnSubLarge (4660.271) from Loan Fund
+|- Interest gained since last reset on UnSubLarge (4660.271) is 15.26278
+|-Loan Fund(1150:550) --(-600)--> 
+|-Main(14858:14258) --(-600)--> 
+|-Payment of 600 made to UnSubLarge. Principal remaining 4060.271
+
+|-Day 944: 
+|-Loan Fund(550:100) --(-450)--> 
+|-Main(14258:13808) --(-450)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(13808:13758) --(-50)--> 
+|-No Minimum Payment Required to UnSubLarge
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(13758:13708) --(-50)--> 
+|-Payment of 450 made to Noyce. Principal remaining 933.4675
+|-Payment of 50 made to UnSubSmall. Principal remaining 2094.143
+|-Payment of 50 made to Subsidized. Principal remaining 750.2162
+
+|-Day 953: 
+|-Boeing: 
+|-Main(13708:14894) <--(1186)-- 
+
+|-Day 967: 
+|-Boeing: 
+|-Main(14894:16080) <--(1186)-- 
+
+=================================================September(32):
+Savings: 16080 ---> 16157 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 933.47 ---> 487.36
+   |--Interest Gained: 3.89
+   |--Amount Paid: 450
+|--UnSubSmall
+   |--Balance: 2105.49 ---> 2067.02
+   |--Interest Gained: 11.54
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 4073.6 ---> 3484.64
+   |--Interest Gained: 11.04
+   |--Amount Paid: 600
+|--Subsidized
+   |--Balance: 752.25 ---> 704.22
+   |--Interest Gained: 1.97
+   |--Amount Paid: 50
+
+Debug:
+|-Day 974: 
+|-Rent: 
+|-Main(16080:14935) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 600 paid on UnSubLarge (4073.603) from Loan Fund
+|- Interest gained since last reset on UnSubLarge (4073.603) is 13.33215
+|-Loan Fund(1150:550) --(-600)--> 
+|-Main(14935:14335) --(-600)--> 
+|-Payment of 600 made to UnSubLarge. Principal remaining 3473.603
+
+|-Day 975: 
+|-Loan Fund(550:100) --(-450)--> 
+|-Main(14335:13885) --(-450)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(13885:13835) --(-50)--> 
+|-No Minimum Payment Required to UnSubLarge
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(13835:13785) --(-50)--> 
+|-Payment of 450 made to Noyce. Principal remaining 487.357
+|-Payment of 50 made to UnSubSmall. Principal remaining 2056.271
+|-Payment of 50 made to Subsidized. Principal remaining 702.3856
+
+|-Day 981: 
+|-Boeing: 
+|-Main(13785:14971) <--(1186)-- 
+
+|-Day 995: 
+|-Boeing: 
+|-Main(14971:16157) <--(1186)-- 
+
+=================================================October(33):
+Savings: 16157 ---> 16234 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 487.36 ---> 39.39
+   |--Interest Gained: 2.03
+   |--Amount Paid: 450
+|--UnSubSmall
+   |--Balance: 2067.02 ---> 1475.52
+   |--Interest Gained: 8.5
+   |--Amount Paid: 600
+|--UnSubLarge
+   |--Balance: 3484.64 ---> 3445.93
+   |--Interest Gained: 11.29
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 704.22 ---> 656.12
+   |--Interest Gained: 1.9
+   |--Amount Paid: 50
+
+Debug:
+|-Day 1004: 
+|-Rent: 
+|-Main(16157:15012) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 600 paid on UnSubSmall (2067.024) from Loan Fund
+|- Interest gained since last reset on UnSubSmall (2067.024) is 11.53802
+|-Loan Fund(1150:550) --(-600)--> 
+|-Main(15012:14412) --(-600)--> 
+|-Payment of 600 made to UnSubSmall. Principal remaining 1467.024
+
+|-Day 1005: 
+|-Loan Fund(550:100) --(-450)--> 
+|-Main(14412:13962) --(-450)--> 
+|-No Minimum Payment Required to UnSubSmall
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(13962:13912) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(13912:13862) --(-50)--> 
+|-Payment of 450 made to Noyce. Principal remaining 39.38763
+|-Payment of 50 made to UnSubLarge. Principal remaining 3435.377
+|-Payment of 50 made to Subsidized. Principal remaining 654.351
+
+|-Day 1009: 
+|-Boeing: 
+|-Main(13862:15048) <--(1186)-- 
+
+|-Day 1023: 
+|-Boeing: 
+|-Main(15048:16234) <--(1186)-- 
+
+=================================================November(34):
+Savings: 16234 ---> 16310.84 (+76.8359375)
+
+Funds:
+|--Loan Fund: 0 ---> -0.16 (-0.164115905761719)
+
+Loans:
+|--Noyce
+   |--Balance: 39.39 ---> 0
+   |--Interest Gained: 0.16
+   |--Amount Paid: 39.55
+|--UnSubSmall
+   |--Balance: 1475.52 ---> 1433.53
+   |--Interest Gained: 8.01
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 3445.93 ---> 2443.05
+   |--Interest Gained: 7.74
+   |--Amount Paid: 1010.61
+|--Subsidized
+   |--Balance: 656.12 ---> 607.83
+   |--Interest Gained: 1.71
+   |--Amount Paid: 50
+
+Debug:
+|-Day 1035: 
+|-Rent: 
+|-Main(16234:15089) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1010.612 paid on UnSubLarge (3445.929) from Loan Fund
+|- Interest gained since last reset on UnSubLarge (3445.929) is 11.28846
+|-Loan Fund(1150:139.3876) --(-1010.612)--> 
+|-Main(15089:14078.39) --(-1010.612)--> 
+|-Payment of 1010.612 made to UnSubLarge. Principal remaining 2435.317
+
+|-Day 1036: 
+|-Loan Fund(139.3876:99.83588) --(-39.55175)--> 
+|-Main(14078.39:14038.84) --(-39.55175)--> 
+|-Loan Fund(99.83588:49.83588) --(-50)--> 
+|-Main(14038.84:13988.84) --(-50)--> 
+|-No Minimum Payment Required to UnSubLarge
+|-Loan Fund(49.83588:-0.1641159) --(-50)--> 
+|-Main(13988.84:13938.84) --(-50)--> 
+|-Payment of 39.55175 made to Noyce. Principal remaining 0
+|-Payment of 50 made to UnSubSmall. Principal remaining 1426.07
+|-Payment of 50 made to Subsidized. Principal remaining 606.2432
+
+|-Day 1037: 
+|-Boeing: 
+|-Main(13938.84:15124.84) <--(1186)-- 
+
+|-Day 1051: 
+|-Boeing: 
+|-Main(15124.84:16310.84) <--(1186)-- 
+
+=================================================December(35):
+Savings: 16310.84 ---> 17573.84 (+1263)
+
+Funds:
+|--Loan Fund: -0.16 ---> 0 (+0.164115905761719)
+
+Loans:
+|--Noyce
+   |--Balance: 0 ---> 0
+   |--Interest Gained: 0
+   |--Amount Paid: 0
+|--UnSubSmall
+   |--Balance: 1433.53 ---> 385.75
+   |--Interest Gained: 2.22
+   |--Amount Paid: 1050
+|--UnSubLarge
+   |--Balance: 2443.05 ---> 2400.92
+   |--Interest Gained: 7.87
+   |--Amount Paid: 50
+|--Subsidized
+   |--Balance: 607.83 ---> 559.45
+   |--Interest Gained: 1.62
+   |--Amount Paid: 50
+
+Debug:
+|-Day 1065: 
+|-Rent: 
+|-Main(16310.84:15165.84) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (-0.1641159:1150) <--(1150)--* 
+|-Payment of 1050 paid on UnSubSmall (1433.528) from Loan Fund
+|- Interest gained since last reset on UnSubSmall (1433.528) is 8.007583
+|-Loan Fund(1150:100) --(-1050)--> 
+|-Main(15165.84:14115.84) --(-1050)--> 
+|-Payment of 1050 made to UnSubSmall. Principal remaining 383.5281
+|-Boeing: 
+|-Main(14115.84:15301.84) <--(1186)-- 
+
+|-Day 1066: 
+|-Loan Fund(100:100) --(0)--> 
+|-Main(15301.84:15301.84) --(0)--> 
+|-No Minimum Payment Required to UnSubSmall
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(15301.84:15251.84) --(-50)--> 
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(15251.84:15201.84) --(-50)--> 
+|-Payment of 50 made to UnSubLarge. Principal remaining 2393.571
+|-Payment of 50 made to Subsidized. Principal remaining 557.9396
+
+|-Day 1079: 
+|-Boeing: 
+|-Main(15201.84:16387.84) <--(1186)-- 
+
+|-Day 1093: 
+|-Boeing: 
+|-Main(16387.84:17573.84) <--(1186)-- 
+
+=================================================January(36):
+Savings: 17573.84 ---> 17650.84 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 0 ---> 0
+   |--Interest Gained: 0
+   |--Amount Paid: 0
+|--UnSubSmall
+   |--Balance: 385.75 ---> 337.71
+   |--Interest Gained: 1.96
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 2400.92 ---> 1355.36
+   |--Interest Gained: 4.44
+   |--Amount Paid: 1050
+|--Subsidized
+   |--Balance: 559.45 ---> 510.93
+   |--Interest Gained: 1.48
+   |--Amount Paid: 50
+
+Debug:
+|-Day 1096: 
+|-Rent: 
+|-Main(17573.84:16428.84) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1050 paid on UnSubLarge (2400.923) from Loan Fund
+|- Interest gained since last reset on UnSubLarge (2400.923) is 7.868351
+|-Loan Fund(1150:100) --(-1050)--> 
+|-Main(16428.84:15378.84) --(-1050)--> 
+|-Payment of 1050 made to UnSubLarge. Principal remaining 1350.923
+
+|-Day 1097: 
+|-Loan Fund(100:100) --(0)--> 
+|-Main(15378.84:15378.84) --(0)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(15378.84:15328.84) --(-50)--> 
+|-No Minimum Payment Required to UnSubLarge
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(15328.84:15278.84) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 335.893
+|-Payment of 50 made to Subsidized. Principal remaining 509.5531
+
+|-Day 1107: 
+|-Boeing: 
+|-Main(15278.84:16464.84) <--(1186)-- 
+
+|-Day 1121: 
+|-Boeing: 
+|-Main(16464.84:17650.84) <--(1186)-- 
+
+=================================================February(37):
+Savings: 17650.84 ---> 17727.84 (+77)
+
+Funds:
+|--Loan Fund: 0 ---> 0 (+0)
+
+Loans:
+|--Noyce
+   |--Balance: 0 ---> 0
+   |--Interest Gained: 0
+   |--Amount Paid: 0
+|--UnSubSmall
+   |--Balance: 337.71 ---> 289.24
+   |--Interest Gained: 1.52
+   |--Amount Paid: 50
+|--UnSubLarge
+   |--Balance: 1355.36 ---> 306.26
+   |--Interest Gained: 0.91
+   |--Amount Paid: 1050
+|--Subsidized
+   |--Balance: 510.93 ---> 462.14
+   |--Interest Gained: 1.21
+   |--Amount Paid: 50
+
+Debug:
+|-Day 1127: 
+|-Rent: 
+|-Main(17650.84:16505.84) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 1050 paid on UnSubLarge (1355.359) from Loan Fund
+|- Interest gained since last reset on UnSubLarge (1355.359) is 4.435839
+|-Loan Fund(1150:100) --(-1050)--> 
+|-Main(16505.84:15455.84) --(-1050)--> 
+|-Payment of 1050 made to UnSubLarge. Principal remaining 305.3586
+
+|-Day 1128: 
+|-Loan Fund(100:100) --(0)--> 
+|-Main(15455.84:15455.84) --(0)--> 
+|-Loan Fund(100:50) --(-50)--> 
+|-Main(15455.84:15405.84) --(-50)--> 
+|-No Minimum Payment Required to UnSubLarge
+|-Loan Fund(50:0) --(-50)--> 
+|-Main(15405.84:15355.84) --(-50)--> 
+|-Payment of 50 made to UnSubSmall. Principal remaining 287.8384
+|-Payment of 50 made to Subsidized. Principal remaining 461.0266
+
+|-Day 1135: 
+|-Boeing: 
+|-Main(15355.84:16541.84) <--(1186)-- 
+
+|-Day 1149: 
+|-Boeing: 
+|-Main(16541.84:17727.84) <--(1186)-- 
+
+=================================================March(38):
+Savings: 17727.84 ---> 17897.19 (+169.35546875)
+
+Funds:
+|--Loan Fund: 0 ---> 92.36 (+92.3555603027344)
+
+Loans:
+|--Noyce
+   |--Balance: 0 ---> 0
+   |--Interest Gained: 0
+   |--Amount Paid: 0
+|--UnSubSmall
+   |--Balance: 289.24 ---> 0
+   |--Interest Gained: 0
+   |--Amount Paid: 289.24
+|--UnSubLarge
+   |--Balance: 306.26 ---> 0
+   |--Interest Gained: 0
+   |--Amount Paid: 306.26
+|--Subsidized
+   |--Balance: 462.14 ---> 0
+   |--Interest Gained: 0
+   |--Amount Paid: 462.14
+
+Debug:
+|-Day 1155: 
+|-Rent: 
+|-Main(17727.84:16582.84) --(-1145)--> 
+|-Funds allocation: 
+|-Loan Fund Set (0:1150) <--(1150)--* 
+|-Payment of 289.2358 paid on UnSubSmall (289.2358) from Loan Fund
+|- Interest gained since last reset on UnSubSmall (289.2358) is 1.523338
+|-Loan Fund(1150:860.7642) --(-289.2358)--> 
+|-Main(16582.84:16293.6) --(-289.2358)--> 
+|-Payment of 289.2358 made to UnSubSmall. Principal remaining 0Payment of 462.1444 paid on Subsidized (462.1444) from Loan Fund
+|- Interest gained since last reset on Subsidized (462.1444) is 1.213061
+|-Loan Fund(860.7642:398.6197) --(-462.1444)--> 
+|-Main(16293.6:15831.46) --(-462.1444)--> 
+|-Payment of 462.1444 made to Subsidized. Principal remaining 0Payment of 306.2642 paid on UnSubLarge (306.2642) from Loan Fund
+|- Interest gained since last reset on UnSubLarge (306.2642) is 0.9054883
+|-Loan Fund(398.6197:92.35556) --(-306.2642)--> 
+|-Main(15831.46:15525.19) --(-306.2642)--> 
+|-Payment of 306.2642 made to UnSubLarge. Principal remaining 0Payment of 0 paid on Noyce (0) from Loan Fund
+|- Interest gained since last reset on Noyce (0) is 0
+|-Loan Fund(92.35556:92.35556) --(0)--> 
+|-Main(15525.19:15525.19) --(0)--> 
+
+|-Day 1156: 
+|-Loan Fund(92.35556:92.35556) --(0)--> 
+|-Main(15525.19:15525.19) --(0)--> 
+|-No Minimum Payment Required to UnSubSmall
+|-No Minimum Payment Required to UnSubLarge
+|-No Minimum Payment Required to Subsidized
+
+|-Day 1163: 
+|-Boeing: 
+|-Main(15525.19:16711.19) <--(1186)-- 
+
+|-Day 1177: 
+|-Boeing: 
+|-Main(16711.19:17897.19) <--(1186)-- 
+
+=================================================

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Projection><?xml version="1.0" encoding="utf-16"?>
+<Loan
+  Name="noyce">
+  <Balance>0</Balance>
+  <InterestPlan></InterestPlan>
+</Loan></Projection>
