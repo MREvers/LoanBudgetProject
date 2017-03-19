@@ -39,3 +39,6 @@ C:\Users\Matthew\Documents\Visual Studio 2015\Projects\BudgetFormVersion\obj\x86
 C:\Users\Matthew\Documents\Visual Studio 2015\Projects\BudgetFormVersion\obj\x86\Debug\BudgetProjectionProject.Properties.Resources.resources
 C:\Users\Matthew\Documents\Visual Studio 2015\Projects\BudgetFormVersion\obj\x86\Debug\BudgetFormVersion.csproj.GenerateResource.Cache
 C:\Users\Matthew\Documents\Visual Studio 2015\Projects\BudgetFormVersion\obj\x86\Debug\BudgetProjectionProject.Forms.ConfirmationForm.resources
+C:\Users\Matthew\Documents\GitHub\LoanBudgetProject\bin\Debug\WindowsApplication.exe.config
+C:\Users\Matthew\Documents\GitHub\LoanBudgetProject\obj\x86\Debug\WindowsApplication.exe
+C:\Users\Matthew\Documents\GitHub\LoanBudgetProject\obj\x86\Debug\WindowsApplication.pdb
