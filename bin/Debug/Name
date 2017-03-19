@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Projection>&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;Loan
-  Name="noyce"&gt;
-  &lt;Balance&gt;0&lt;/Balance&gt;
-  &lt;InterestPlan&gt;&lt;/InterestPlan&gt;
-&lt;/Loan&gt;</Projection>
